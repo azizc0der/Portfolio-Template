@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+/* Header section */
+
+.hamburger-menu {
+    display: none;
+}
+
+.main-header__items {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin-top: 27px;
+}
+.main-header__section {
+    margin: 0 60px;
+}
+
+.main-header__item a {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-decoration: none;
+    margin-left: 33px;
+    color: #000;
+}
+
+/* About Me Section */
+
+.about-me {
+    margin-top: 158px;
+}
+
+.about-me__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.about-me__section-title {
+    font-family: sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #21243d;
+}
+
+.about-me__section-subtitle {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+    color: #21243d;
+}
+
+.about-me__section-btn {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    color: #fff;
+    background: #ff6464;
+    margin-top: 47px;
+    padding: 9px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Recent Posts Section */
+
+.recent-posts {
+    margin-top: 71px;
+   
+}
+
+.recent-posts {
+    background: #edf7fa;
+}
+
+
+.recent-posts__section-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.recent-posts__section-header h4 {
+   padding-top: 13px;
+   font-family: Heebo;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 60px;
+}
+
+.recent-posts__section-header a {
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 27px;
+    text-decoration: none;
+    color: #00a8cc;
+}
+
+.recent-posts__section-menu {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu {
+    background: #fff;
+    padding: 24px 23px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.menu-title {
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.menu-date {
+    margin-top: 17px;
+}
+
+.menu-info span {
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.menu-subtitle {
+    margin-top: 17px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Featured Works Section */
+
+.featured-works__section-header {
+    margin-top: 15px;
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.featured-works__items {
+    margin-top: 22px;
+}
+
+.featured-works__item {
+    display: flex;
+}
+
+.featured-works__info {
+    margin-left: 18px;
+}
+
+.featured-works__info-title {
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.info-date {
+    margin-top: 20px;
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    background: #142850;
+    color: #fff;
+    border-radius: 16px;
+    padding: 3px 10px;
+}
+
+.info-info {
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8695a4;
+    margin-left: 26px;
+}
+
+.featured-works__info-subtitle {
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.horizontal-line {
+    margin: 32px 10px;
+}
+
+/* Contact Section */
+
+.footer {
+    margin-top: 134px;
+}
+
+.footer__section-socials {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__section-social a {
+    margin: 0 17.5px;
+}
+
+.footer-subtitle {
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 54px;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .main-header__section {
+        margin: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        max-width: 700px;
+    }
+
+    /* Header Section */
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .main-header__items {
+        display: none;
+    }
+  
+
+    /* About Me Section */
+    .about-me__section-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about-me__section-subtitle {
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+
+    .about-me__section-btn {
+        margin-top: 38px;
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    /* Recent Posts Section */
+    .recent-posts__section {
+        padding-bottom: 32px;
+    }
+
+    .recent-posts__section-header h4 {
+        font-size: 18px;
+    }
+
+    .menu {
+        margin: 10px 10px;
+    }
+
+    .menu-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .menu-info {
+        margin-top: 12px;
+    }
+
+    .menu-info span {
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+    
+    /* Featured Works Section */
+    .featured-works {
+        margin-top: 20px;
+    }
+
+    .featured-works__section-header {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .featured-works__items {
+        text-align: center;
+    }
+
+    .featured-works__item {
+        display: block;
+        margin: 0 10px;
+    }
+
+    .wrapper img {
+        width: 339px;
+        height: 230px;
+    }
+
+    .featured-works__info {
+        margin: 17px 0;
+    }
+
+
+    .featured-works__info-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .info-date {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .info-info {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+
+    .featured-works__info-subtitle {
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+
+    .horizontal-line {
+        margin-top: 17px;
+    }
+
+    .footer-section__socials {
+        margin-top: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 699px) {
+    .recent-posts__section {
+        background: #edf7fa;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+  
+    .about-me {
+        margin-top: 33px;
+    }
+
+    .about-me__section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .about-me__section-info {
+        text-align: center;
+        margin-top: 43px;
+    }
+
+    .about-me__section-subtitle {
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+
+    .about-me__section-btn {
+        margin-top: 27px;
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .about-me__section-image {
+        text-align: center;
+    }
+
+    /* Recent Posts Section */
+    .recent-posts__section-menu {
+        grid-gap: 0;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .container {
+        max-width: 360px;
+    }
+    
+    /* About Me Section */
+
+    .about-me {
+        margin-top: 33px;
+    }
+
+    .about-me__section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .about-me__section-info {
+        text-align: center;
+        margin-top: 43px;
+    }
+
+    
+    .about-me__section-subtitle {
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 23.5px;
+    }
+
+    .about-me__section-btn {
+        margin-top: 27px;
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .about-me__section-image {
+        text-align: center;
+    }
+    .wrapper img {
+        width: 250px;
+    }
+
+    /* Recent Posts Section */
+    .recent-posts__section-header {
+        display: block;
+    }
+
+    .recent-posts__section-header h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .recent-posts__section-header a {
+        display: none;
+    }
+
+     .recent-posts__section-menu {
+        display: block;                                             /*  ?????????????????????????????????? */
+    } 
+   
+    .menu-title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .menu-info span {
+        line-height: 14.5px;
+    }
+
+    .menu-subtitle {
+        font-size: 16px;
+        margin-top: 11px;
+    }
+
+    /* Featured Works Section  */
+    .featured-works__items {
+        text-align: left;
+    }
+
+    .item-2, .item-3, .hr-2, .hr-3 {
+        display: none;
+    }
+
+}
+
+
